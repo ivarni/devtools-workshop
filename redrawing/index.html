@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/app.css" media="all" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="app"></div>
+
+    <script type="text/template" id="row-template">
+        <td><%= tech %></td>
+        <td><%= coolness %></td>
+    </script>
+
+    <script type="text/template" id="table-template">
+        <thead>
+        <tr>
+            <th>Tech</th>
+            <th>Coolness</th>
+        </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </script>
+
+    <script type="text/template" id="app-template">
+        <button>Add tech</button>
+    </script>
+
+    <script src="lib/jquery-2.1.1.js"></script>
+    <script src="lib/underscore.js"></script>
+    <script src="lib/backbone.js"></script>
+    <script src="src/models/rowModel.js"></script>
+    <script src="src/collections/rowCollection.js"></script>
+    <script src="src/views/rowView.js"></script>
+    <script src="src/views/tableView.js"></script>
+    <script src="src/views/appView.js"></script>
+</body>
+</html>
