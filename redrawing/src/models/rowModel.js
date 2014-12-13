@@ -24,13 +24,13 @@ var APP = APP || {};
             if (techs.length === 0) {
                 var tech = ['Inhouse framework ' + count++];
             } else {
-                var index = _.random(3, techs.length - 1);
+                var index = _.random(0, techs.length - 1);
                 var tech = techs.splice(index, 1);
             }
 
             return {
                 tech: tech[0],
-                coolness: Math.floor(Math.random() * 10)
+                coolness: Math.floor((Math.random() * 10) + 2)
             }
         }
 
