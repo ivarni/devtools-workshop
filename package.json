@@ -4,6 +4,6 @@
   "author": "Ivar Nilsen",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.10.4"
+    "express": "4.10.4"
   }
 }

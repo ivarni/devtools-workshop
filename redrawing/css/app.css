@@ -4,5 +4,6 @@ td {
 }
 
 table {
+    table-layout: fixed;
     width: 300px;
 }
